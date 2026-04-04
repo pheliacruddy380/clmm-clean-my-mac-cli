@@ -22,6 +22,17 @@ echo -e "${GREEN}Welcome to CLMM (Clean My Mac CLI) Installer!${NC}\n"
 # 1. Check requirements
 command -v git >/dev/null 2>&1 || { echo -e "${RED}Error: Git is required but not installed.${NC}" >&2; exit 1; }
 command -v node >/dev/null 2>&1 || { echo -e "${RED}Error: Node.js is required but not installed.${NC}" >&2; exit 1; }
+
+NODE_VERSION=$(node -v | cut -d "v" -f 2)
+NODE_MAJOR=$(echo $NODE_VERSION | cut -d "." -f 1)
+NODE_MINOR=$(echo $NODE_VERSION | cut -d "." -f 2)
+
+if [ "$NODE_MAJOR" -lt 20 ] || ( [ "$NODE_MAJOR" -eq 20 ] && [ "$NODE_MINOR" -lt 12 ] ); then
+    echo -e "${RED}Error: Node.js v20.12.0 or higher is required. You are currently using v$NODE_VERSION.${NC}" >&2
+    echo -e "${YELLOW}Please upgrade Node.js (e.g., using nvm: nvm install 20) and try again.${NC}" >&2
+    exit 1
+fi
+
 command -v npm >/dev/null 2>&1 || { echo -e "${RED}Error: npm is required but not installed.${NC}" >&2; exit 1; }
 
 INSTALL_DIR="$HOME/.clmm"
