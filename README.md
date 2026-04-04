@@ -113,6 +113,16 @@ Interactive category-based cleanup inherited from mac-cleaner-cli: user caches, 
 
 ## 🚀 Installation
 
+### ⚡ 1-Liner Auto-Install (Recommended)
+You can install and link `clmm` automatically by running this single command:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/0xAstroAlpha/clmm-clean-my-mac-cli/main/install.sh | bash
+```
+
+### 🛠️ Manual Installation
+If you prefer to install it manually:
+
 ```bash
 # 1. Clone the repository
 git clone https://github.com/0xAstroAlpha/clmm-clean-my-mac-cli.git
