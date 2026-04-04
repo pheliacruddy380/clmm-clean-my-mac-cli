@@ -114,21 +114,22 @@ Interactive category-based cleanup inherited from mac-cleaner-cli: user caches, 
 ## 🚀 Installation
 
 ```bash
-# Clone the repository
+# 1. Clone the repository
 git clone https://github.com/0xAstroAlpha/clmm-clean-my-mac-cli.git
 cd clmm-clean-my-mac-cli
 
-# Install dependencies
+# 2. Install dependencies
 npm install
 
-# Run directly
-npx tsx src/index.ts check
-
-# Or build and link globally
+# 3. Build and link globally (Makes the 'clmm' command available everywhere)
 npm run build
 npm link
+
+# 4. Verify installation
 clmm --help
 ```
+
+*(Note: If you plan to modify the CLI source code later, just run `npm run build` again and your global `clmm` command will be automatically updated!)*
 
 ### Requirements
 - macOS (tested on macOS 15+)
